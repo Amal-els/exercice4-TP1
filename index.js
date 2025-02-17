@@ -1,5 +1,5 @@
 function gettingRandomColor(){
-    return (`rgb(${Math.floor(Math.random()*256)},${Math.floor(Math.random()*256)},${Math.floor(Math.random()*256)})`)
+    return (`rgb(${Math.floor(Math.random()*256)},${Math.floor(Math.random()*256)},${Math.floor(Math.random()*256)})`);
 }
 var item = document.querySelectorAll("li");
 item.forEach(function(item){
